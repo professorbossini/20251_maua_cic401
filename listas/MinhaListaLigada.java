@@ -1,3 +1,4 @@
+package listas;
 public class MinhaListaLigada {
     No primeiro = null, ultimo = null;
 
