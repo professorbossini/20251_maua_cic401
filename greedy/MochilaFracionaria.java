@@ -14,7 +14,7 @@ public class MochilaFracionaria {
         }
         Collections.sort(itens);
         for (Item item : itens){
-            
+                
         } 
         System.out.println(itens);
         leitor.close();
