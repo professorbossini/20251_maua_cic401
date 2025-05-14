@@ -112,8 +112,8 @@ public class BellmanFord {
     g.adicionarAresta(3, 2, 9);
     g.adicionarAresta(3, 4, 2);
     g.adicionarAresta(4, 2, 6);
-    var dijkstra = new Dijkstra();
-    dijkstra.executar(g, 0);
+    var bellmanFord = new BellmanFord();
+    bellmanFord.executar(g, 0);
     for (Grafo.Vertice v : g.getVertices()){
       System.out.printf("Distância de s a %s: %d\n", v.nome, v.distancia);
       System.out.printf(
